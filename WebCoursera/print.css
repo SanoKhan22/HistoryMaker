@@ -1,0 +1,39 @@
+/* Hide elements that are repeated on every page */
+header,
+.footer,
+.footer-nav,
+.social-icons,
+.footer-bottom,
+header nav {
+    display: none;
+}
+
+/* Hide videos */
+.video-section {
+    display: none;
+}
+
+/* Scale down images */
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Adjust text to fill pages */
+body {
+    font-size: 14pt;
+    line-height: 1.4;
+}
+
+/* Table styles for print */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
